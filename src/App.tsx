@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 type TabKey = "shm" | "beats" | "lissajous" | "resonance";
 type Point = { x: number; y: number };
